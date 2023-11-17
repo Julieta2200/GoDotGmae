@@ -1,0 +1,17 @@
+[gd_scene load_steps=2 format=3 uid="uid://fga5q51pyrjx"]
+
+[ext_resource type="Texture2D" uid="uid://x1rufd81jutb" path="res://scout.png" id="1_ypo1h"]
+
+[node name="UI" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "Play"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_left = 43.0
+offset_top = 412.0
+offset_right = 275.0
+offset_bottom = 635.0
+texture = ExtResource("1_ypo1h")

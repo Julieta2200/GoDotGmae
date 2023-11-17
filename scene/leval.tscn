@@ -1,0 +1,13 @@
+[gd_scene load_steps=4 format=3 uid="uid://bvsoeodd733pr"]
+
+[ext_resource type="PackedScene" uid="uid://ddjibe67evqn0" path="res://scene/static_body_2d.tscn" id="1_u2oms"]
+[ext_resource type="PackedScene" uid="uid://b4qdewf1vxepo" path="res://scene/player.tscn" id="2_0x08x"]
+[ext_resource type="PackedScene" uid="uid://fga5q51pyrjx" path="res://scene/UI/ui.tscn" id="2_yo1eq"]
+
+[node name="Leval" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("2_0x08x")]
+
+[node name="UI" parent="." instance=ExtResource("2_yo1eq")]
+
+[node name="StaticBody2D" parent="." instance=ExtResource("1_u2oms")]
